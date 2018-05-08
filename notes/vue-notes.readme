@@ -1,0 +1,9 @@
+### Events
+
+v-on listens for an event
+
+Any time there is a v-on directive, event object is automaticly passed to the method that is listening for the event
+Event object can be accessed in the HMLT with '$event'
+$event is protected variable. Also, you only need to use 'event' to access in the JS code.
+
+you can stop v-on with '.stop' added to the ened of the v-on:MODIFIER
