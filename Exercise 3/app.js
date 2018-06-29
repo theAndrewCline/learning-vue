@@ -5,13 +5,13 @@ new Vue({
             result: 0
         },
         methods: {
-            startTimer: function() {
-
+            valueCheck: function() {
+                if(this.value >= 37) {
+                    this.result = this.value
+                    this.value = 0
+                }
             },
-            addFive: function() {
-                
-            }, 
-            addOne: function() {
+            startTimer: function() {
 
             }
         }
