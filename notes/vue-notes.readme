@@ -7,3 +7,8 @@ Event object can be accessed in the HMLT with '$event'
 $event is protected variable. Also, you only need to use 'event' to access in the JS code.
 
 you can stop v-on with '.stop' added to the ened of the v-on:MODIFIER
+
+### Shortcuts 
+
+v-on: - @
+v-bind: - : 
